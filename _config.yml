@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: Perplexdev
 
 # Your name to show in the footer
-author: Some Person
+author: Christopher Eelman
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -133,18 +133,31 @@ navbar-var-length: false
 ######################################
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
+#ORIGINAL
+#page-col: "#FFFFFF"
+#text-col: "#404040"
+#link-col: "#008AFF"
+#hover-col: "#0085A1"
+#navbar-col: "#EAEAEA"
+#navbar-text-col: "#404040"
+#navbar-border-col: "#DDDDDD"
+#footer-col: "#EAEAEA"
+#footer-text-col: "#777777"
+#footer-link-col: "#404040"
+#footer-hover-col: "#0085A1"
 
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+#NEON
+page-col: "#212121" // dark background
+text-col: "#AAAAAA" // light gray text
+link-col: "#33CCFF" // neon blue links
+hover-col: "#66FFFF" // bright neon blue hover effect
+navbar-col: "#333333" // dark navbar background
+navbar-text-col: "#CCCCCC" // light gray navbar text
+navbar-border-col: "#555555" // dark gray navbar border
+footer-col: "#333333" // dark footer background
+footer-text-col: "#999999" // medium gray footer text
+footer-link-col: "#33CCFF" // neon blue footer links
+footer-hover-col: "#66FFFF" // bright neon blue footer hover effect
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -258,7 +271,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
